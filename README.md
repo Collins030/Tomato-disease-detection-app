@@ -39,13 +39,13 @@ cd Tomato-disease-detection-app
 If you want to retrain the model, use the tomato.py script. Ensure you have the required dataset and TensorFlow installed.
 
 bash
-Copy code
+
 python tomato.py
 3. Run the FastAPI Backend
 Start the backend using uvicorn to serve the model locally.
 
 bash
-Copy code
+
 uvicorn tomatofastapi:app --reload
 By default, the FastAPI server runs at http://localhost:8000.
 
@@ -53,7 +53,7 @@ By default, the FastAPI server runs at http://localhost:8000.
 Navigate to the frontend directory and start the React app:
 
 bash
-Copy code
+
 cd frontend
 npm install
 npm start
@@ -73,18 +73,24 @@ The React app interacts with the FastAPI backend to allow users to upload images
 🖼️ Demo
 Here’s a visual walkthrough of the app in action:
 
-1. Upload Image
+### **1. Upload Image**
 Upload a tomato leaf image via the React app.
 
+![Upload Example](https://github.com/Collins030/Tomato-disease-detection-app/blob/main/spider%20mites%20prediction.png.png?raw=true)
 
+---
 
-2. View Prediction
-See the predicted class (e.g., Tomato___Bacterial_spot) and confidence score.
+### **2. View Prediction**
+See the predicted class (e.g., *Tomato___Bacterial_spot*) and confidence score.
 
+![Prediction Example](https://github.com/Collins030/Tomato-disease-detection-app/blob/main/target%20spot%20pred.png?raw=true)
 
+---
 
-3. Get Recommendations
+### **3. Get Recommendations**
 Receive tailored advice, including fungicide recommendations and usage instructions.
+
+![Recommendations Example](https://github.com/Collins030/Tomato-disease-detection-app/blob/main/tomato%20early%20blight%20confirmation.png.png?raw=true)
 
 
 
