@@ -76,7 +76,7 @@ Here’s a visual walkthrough of the app in action:
 ### **1. Upload Image**
 Upload a tomato leaf image via the React app.
 
-![Upload Example](https://github.com/Collins030/Tomato-disease-detection-app/blob/main/spider%20mites%20prediction.png.png?raw=true)
+![Upload Example](https://github.com/Collins030/Tomato-disease-detection-app/blob/main/spider%20mites%20prediction.png?raw=true)
 
 ---
 
@@ -90,7 +90,7 @@ See the predicted class (e.g., *Tomato___Bacterial_spot*) and confidence score.
 ### **3. Get Recommendations**
 Receive tailored advice, including fungicide recommendations and usage instructions.
 
-![Recommendations Example](https://github.com/Collins030/Tomato-disease-detection-app/blob/main/tomato%20early%20blight%20confirmation.png.png?raw=true)
+![Recommendations Example](https://github.com/Collins030/Tomato-disease-detection-app/blob/main/tomato%20early%20blight%20confirmation.png?raw=true)
 
 
 
