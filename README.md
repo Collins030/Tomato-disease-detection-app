@@ -1,30 +1,40 @@
-# Tomato-disease-detection-app
-This project is an application of deep learning model that helps potato farmers detect  disease affecting their tomato
-🍅 Tomato Disease Detection App
-Welcome to the Tomato Disease Detection App, an end-to-end machine learning project designed to identify tomato leaf diseases from images and provide actionable recommendations. This app combines a trained TensorFlow model, a FastAPI backend, and a React-based frontend to deliver predictions directly to the user.
+# 🍅 Tomato Disease Detection App
 
-🌟 Features
-Model Training: Build and train a TensorFlow model to classify tomato leaf diseases with high accuracy.
-FastAPI Backend: Hosts the model locally, processes image uploads, and serves predictions to the frontend.
-Interactive Frontend: React app that allows users to upload images and view real-time predictions with actionable advice.
-Actionable Recommendations: Provides disease-specific treatments and farming tips.
-📂 Project Structure
-Here's an overview of the key files and their purpose:
+Welcome to the **Tomato Disease Detection App**, an end-to-end machine learning project designed to identify tomato leaf diseases from images and provide actionable recommendations. This app combines a trained TensorFlow model, a FastAPI backend, and a React-based frontend to deliver predictions directly to the user.
 
-File/Folder	Description
-tomato.py	Script to train and save the TensorFlow model for detecting tomato diseases.
-tomatofastapi.py	FastAPI application that serves the trained model and provides predictions for uploaded images.
-frontend	React app that interacts with the FastAPI backend to display predictions and recommendations.
-model	Directory to store the trained model (tomato_model.h5).
-README.md	Comprehensive guide to understanding and using the project.
-🛠️ Setup Instructions
+---
+
+## 🌟 Features
+
+- **Model Training**: Build and train a TensorFlow model to classify tomato leaf diseases with high accuracy.
+- **FastAPI Backend**: Hosts the model locally, processes image uploads, and serves predictions to the frontend.
+- **Interactive Frontend**: React app that allows users to upload images and view real-time predictions with actionable advice.
+- **Actionable Recommendations**: Provides disease-specific treatments and farming tips.
+
+---
+
+## 📂 Project Structure
+
+| File/Folder         | Description                                                                                     |
+|---------------------|-------------------------------------------------------------------------------------------------|
+| `tomato.py`         | Script to train and save the TensorFlow model for detecting tomato diseases.                    |
+| `tomatofastapi.py`  | FastAPI application that serves the trained model and provides predictions for uploaded images. |
+| `frontend`          | React app that interacts with the FastAPI backend to display predictions and recommendations.  |
+| `model`             | Directory to store the trained model (`tomato_model.h5`).                                       |
+| `README.md`         | Comprehensive guide to understanding and using the project.                                    |
+
+---
+
+## 🛠️ Setup Instructions
+
 Follow these steps to set up and run the project locally.
 
-1. Clone the Repository
-bash
-Copy code
+### 1. Clone the Repository
+
+```bash
 git clone https://github.com/Collins030/Tomato-disease-detection-app.git
 cd Tomato-disease-detection-app
+
 2. Train the Model (Optional)
 If you want to retrain the model, use the tomato.py script. Ensure you have the required dataset and TensorFlow installed.
 
@@ -92,3 +102,4 @@ This project is open-source and available under the MIT License.
 Integration with cloud storage for model hosting and scalability.
 Support for additional crops and diseases.
 Deployment of the app for public use.
+Feel free to contribute by raising issues or submitting pull requests!
